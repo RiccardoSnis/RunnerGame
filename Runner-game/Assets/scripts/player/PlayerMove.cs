@@ -5,18 +5,17 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float moveSpeed = 3;
+    public float moveSpeed = 7;
     public float leftRightSpeed = 7;
     public bool isJumping = false;
     public bool comingDown = false;
     public GameObject playerObject;
-
+    static public bool canMove = false;
  
 
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
-
         if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
             if(this.gameObject.transform.position.x > LevelBoundery.leftSide)
             transform.Translate(Vector3.left * Time.deltaTime * leftRightSpeed);
