@@ -351,7 +351,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips
+    path: mixamorig8:Hips
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -538,7 +538,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine
+    path: mixamorig8:Hips/mixamorig8:Spine
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -788,7 +788,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1038,7 +1038,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1387,7 +1387,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:Neck
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1718,7 +1718,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:Neck/mixamorig8:Head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2130,7 +2130,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2785,7 +2785,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3206,7 +3206,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3915,7 +3915,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4399,7 +4399,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandThumb1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4649,7 +4649,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandThumb1/mixamorig8:LeftHandThumb2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4674,7 +4674,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2/mixamorig:LeftHandThumb3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandThumb1/mixamorig8:LeftHandThumb2/mixamorig8:LeftHandThumb3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5104,7 +5104,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandIndex1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5426,7 +5426,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandIndex1/mixamorig8:LeftHandIndex2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5451,7 +5451,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2/mixamorig:LeftHandIndex3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandIndex1/mixamorig8:LeftHandIndex2/mixamorig8:LeftHandIndex3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5863,7 +5863,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandMiddle1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -6230,7 +6230,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandMiddle1/mixamorig8:LeftHandMiddle2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -6255,7 +6255,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2/mixamorig:LeftHandMiddle3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandMiddle1/mixamorig8:LeftHandMiddle2/mixamorig8:LeftHandMiddle3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -6694,7 +6694,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandRing1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -7061,7 +7061,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandRing1/mixamorig8:LeftHandRing2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -7086,7 +7086,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2/mixamorig:LeftHandRing3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandRing1/mixamorig8:LeftHandRing2/mixamorig8:LeftHandRing3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -7561,7 +7561,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandPinky1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -7820,7 +7820,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandPinky1/mixamorig8:LeftHandPinky2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -7845,7 +7845,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2/mixamorig:LeftHandPinky3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:LeftShoulder/mixamorig8:LeftArm/mixamorig8:LeftForeArm/mixamorig8:LeftHand/mixamorig8:LeftHandPinky1/mixamorig8:LeftHandPinky2/mixamorig8:LeftHandPinky3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -8176,7 +8176,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -8795,7 +8795,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -9279,7 +9279,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -9916,7 +9916,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -10346,7 +10346,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandThumb1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -10767,7 +10767,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandThumb1/mixamorig8:RightHandThumb2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -10792,7 +10792,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2/mixamorig:RightHandThumb3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandThumb1/mixamorig8:RightHandThumb2/mixamorig8:RightHandThumb3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -11240,7 +11240,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandIndex1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -11400,7 +11400,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandIndex1/mixamorig8:RightHandIndex2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -11425,7 +11425,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2/mixamorig:RightHandIndex3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandIndex1/mixamorig8:RightHandIndex2/mixamorig8:RightHandIndex3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -11837,7 +11837,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandMiddle1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -12096,7 +12096,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandMiddle1/mixamorig8:RightHandMiddle2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -12121,7 +12121,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2/mixamorig:RightHandMiddle3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandMiddle1/mixamorig8:RightHandMiddle2/mixamorig8:RightHandMiddle3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -12542,7 +12542,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandRing1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -12819,7 +12819,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandRing1/mixamorig8:RightHandRing2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -12844,7 +12844,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2/mixamorig:RightHandRing3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandRing1/mixamorig8:RightHandRing2/mixamorig8:RightHandRing3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -13337,7 +13337,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandPinky1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -13632,7 +13632,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandPinky1/mixamorig8:RightHandPinky2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -13657,7 +13657,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2/mixamorig:RightHandPinky3
+    path: mixamorig8:Hips/mixamorig8:Spine/mixamorig8:Spine1/mixamorig8:Spine2/mixamorig8:RightShoulder/mixamorig8:RightArm/mixamorig8:RightForeArm/mixamorig8:RightHand/mixamorig8:RightHandPinky1/mixamorig8:RightHandPinky2/mixamorig8:RightHandPinky3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -14123,7 +14123,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    path: mixamorig8:Hips/mixamorig8:LeftUpLeg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -14589,7 +14589,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    path: mixamorig8:Hips/mixamorig8:LeftUpLeg/mixamorig8:LeftLeg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -15172,7 +15172,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    path: mixamorig8:Hips/mixamorig8:LeftUpLeg/mixamorig8:LeftLeg/mixamorig8:LeftFoot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -15512,7 +15512,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    path: mixamorig8:Hips/mixamorig8:LeftUpLeg/mixamorig8:LeftLeg/mixamorig8:LeftFoot/mixamorig8:LeftToeBase
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -15951,7 +15951,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:RightUpLeg
+    path: mixamorig8:Hips/mixamorig8:RightUpLeg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -16363,7 +16363,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    path: mixamorig8:Hips/mixamorig8:RightUpLeg/mixamorig8:RightLeg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -16928,7 +16928,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    path: mixamorig8:Hips/mixamorig8:RightUpLeg/mixamorig8:RightLeg/mixamorig8:RightFoot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -17322,7 +17322,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    path: mixamorig8:Hips/mixamorig8:RightUpLeg/mixamorig8:RightLeg/mixamorig8:RightFoot/mixamorig8:RightToeBase
   m_CompressedRotationCurves: []
   m_EulerCurves: []
   m_PositionCurves:
@@ -17926,7 +17926,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: mixamorig:Hips
+    path: mixamorig8:Hips
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
