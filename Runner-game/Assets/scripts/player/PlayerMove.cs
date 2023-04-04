@@ -29,7 +29,7 @@ public class PlayerMove : MonoBehaviour
             transform.Translate(Vector3.right * Time.deltaTime * leftRightSpeed);
         }
 
-        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space)){
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space) && isSliding==false){
             if (isJumping == false ) {
                 isJumping = true;
                 playerObject.GetComponent<Animator>().Play("Jump");
@@ -45,7 +45,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
+        if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow) && isJumping==false){
             if(isSliding == false){
                 isSliding = true;
                 playerObject.GetComponent<Animator>().Play("Running Slide");
