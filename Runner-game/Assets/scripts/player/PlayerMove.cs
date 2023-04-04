@@ -52,10 +52,6 @@ public class PlayerMove : MonoBehaviour
                 StartCoroutine(SlideSequence());
             }
         }
-
-        if(isSliding == true) {
-            transform.Translate(Vector3.forward * Time.deltaTime *4, Space.World);
-        }
     }
 
 
@@ -69,9 +65,8 @@ public class PlayerMove : MonoBehaviour
     }
 
     IEnumerator SlideSequence(){
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.1f);
         isSliding = false;
-        transform.Translate(Vector3.forward * Time.deltaTime *6, Space.World);
         playerObject.GetComponent<Animator>().Play("Standard Run");
     }
 
