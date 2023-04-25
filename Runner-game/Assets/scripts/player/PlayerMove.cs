@@ -10,11 +10,9 @@ public class PlayerMove : MonoBehaviour
     public bool isJumping = false;
     public bool comingDown = false;
     public bool isSliding = false;
-    public bool comingUp = false;
     public GameObject playerObject;
     static public bool canMove = false;
  
-
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
@@ -26,7 +24,7 @@ public class PlayerMove : MonoBehaviour
 
         if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
             if(this.gameObject.transform.position.x < LevelBoundery.rightSide)
-            transform.Translate(Vector3.right * Time.deltaTime * leftRightSpeed);
+            transform.Translate(Vector3.right * Time.fixedDeltaTime * leftRightSpeed);
         }
 
         if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space) && isSliding==false){
@@ -38,10 +36,10 @@ public class PlayerMove : MonoBehaviour
         } 
         if(isJumping == true) {
             if(comingDown == false){
-                transform.Translate(Vector3.up * Time.deltaTime * 3, Space.World);
+                transform.Translate(Vector3.up * Time.fixedDeltaTime * 3, Space.World);
             }
             if(comingDown == true){
-                transform.Translate(Vector3.up * Time.deltaTime * -3, Space.World);
+                transform.Translate(Vector3.up * Time.fixedDeltaTime * -3, Space.World);
             }
         }
 
@@ -58,9 +56,9 @@ public class PlayerMove : MonoBehaviour
     IEnumerator JumpSequence(){
         yield return new WaitForSeconds(0.45f);
         comingDown = true;
-        yield return new WaitForSeconds(0.55f);
-        isJumping = false;
+        yield return new WaitForSeconds(0.45f);
         comingDown = false;
+        isJumping = false;
         playerObject.GetComponent<Animator>().Play("Standard Run");
     }
 
