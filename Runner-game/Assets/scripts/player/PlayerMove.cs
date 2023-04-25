@@ -58,7 +58,7 @@ public class PlayerMove : MonoBehaviour
     IEnumerator JumpSequence(){
         yield return new WaitForSeconds(0.45f);
         comingDown = true;
-        yield return new WaitForSeconds(0.45f);
+        yield return new WaitForSeconds(0.55f);
         isJumping = false;
         comingDown = false;
         playerObject.GetComponent<Animator>().Play("Standard Run");
