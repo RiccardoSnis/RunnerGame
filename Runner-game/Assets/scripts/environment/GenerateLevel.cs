@@ -18,11 +18,10 @@ public class GenerateLevel : MonoBehaviour
     void GenerateStartSection()
     {
         GameObject[] startSections = GameObject.FindGameObjectsWithTag(startSectionTag);
+        
 
         if (startSections.Length > 0)
         {
-            int randomIndex = Random.Range(0, startSections.Length);
-            Instantiate(startSections[randomIndex], new Vector3(-2.87f, 0, zPos), Quaternion.identity);
             zPos += 93;
             startSectionGenerated = true;
         }
