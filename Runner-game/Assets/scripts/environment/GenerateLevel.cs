@@ -5,25 +5,47 @@ using UnityEngine;
 public class GenerateLevel : MonoBehaviour
 {
     public GameObject[] section;
-    public int zPos=50;
-    public bool creatingSection = false;
-    public int secNum;
+    public string startSectionTag = "StartSection";
+    public int zPos = 50;
+    public bool startSectionGenerated = false;
 
-    void Update()
+    void Start()
     {
-        if (creatingSection == false)
+        GenerateStartSection();
+        StartCoroutine(GenerateRandomSections());
+    }
+
+    void GenerateStartSection()
+    {
+        GameObject[] startSections = GameObject.FindGameObjectsWithTag(startSectionTag);
+
+        if (startSections.Length > 0)
         {
-            creatingSection = true;
-            StartCoroutine(GenerateSection());
+            int randomIndex = Random.Range(0, startSections.Length);
+            Instantiate(startSections[randomIndex], new Vector3(-2.87f, 0, zPos), Quaternion.identity);
+            zPos += 93;
+            startSectionGenerated = true;
+        }
+        else
+        {
+            Debug.LogError("No start sections found with tag: " + startSectionTag);
         }
     }
 
-    IEnumerator GenerateSection()
+    IEnumerator GenerateRandomSections()
     {
-        secNum = Random.Range(0, 3); // 0,1,2
-        Instantiate(section[secNum], new Vector3(-2.87f,0, zPos), Quaternion.identity);
-        zPos += 93;
-        yield return new WaitForSeconds(2);
-        creatingSection=false;
+        yield return new WaitForSeconds(2f);
+
+        while (true)
+        {
+            if (startSectionGenerated)
+            {
+                int randomSectionIndex = Random.Range(0, section.Length);
+                Instantiate(section[randomSectionIndex], new Vector3(-2.87f, 0, zPos), Quaternion.identity);
+                zPos += 93;
+            }
+
+            yield return new WaitForSeconds(2f);
+        }
     }
 }
