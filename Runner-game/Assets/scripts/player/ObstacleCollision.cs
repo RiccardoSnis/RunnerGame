@@ -74,7 +74,6 @@ public class ObstacleCollision : MonoBehaviour
         }
 
         levelControl.GetComponent<EndRunSequence>().enabled = true;
-        levelControl.GetComponent<GenerateLevel>().enabled = false;
     }
 
     private float FindGroundHeight()
