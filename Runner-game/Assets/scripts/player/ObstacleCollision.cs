@@ -6,8 +6,15 @@ public class ObstacleCollision : MonoBehaviour
 {
     public GameObject thePlayer;
     public GameObject charModel;
-
     private bool isStumbling = false;
+    public GameObject levelControl;
+    public GameObject generateLevel;
+
+
+    private void Start()
+    {
+        levelControl = GameObject.Find("LevelControl");
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -37,9 +44,7 @@ public class ObstacleCollision : MonoBehaviour
     float remainingTime = animator.GetCurrentAnimatorStateInfo(0).length - cutoffTime;
     float normalizedTime = cutoffTime / animator.GetCurrentAnimatorStateInfo(0).length;
     animator.Play("Stumble Backwards", 0, normalizedTime);
-
     yield return new WaitForSeconds(cutoffTime);
-
     animator.SetFloat("StumbleBackwardsSpeed", animator.GetCurrentAnimatorStateInfo(0).length / remainingTime);
 
     float groundHeight = FindGroundHeight();
@@ -67,6 +72,9 @@ public class ObstacleCollision : MonoBehaviour
             thePlayer.transform.position = Vector3.Lerp(startPos, targetPos, t);
             yield return null;
         }
+
+        levelControl.GetComponent<EndRunSequence>().enabled = true;
+        levelControl.GetComponent<GenerateLevel>().enabled = false;
     }
 
     private float FindGroundHeight()
