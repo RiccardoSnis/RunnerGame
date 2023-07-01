@@ -7,7 +7,7 @@ public class EndRunSequence : MonoBehaviour
     public GameObject liveCoins;
     public GameObject liveDist;
     public GameObject endScreen;
-    // Start is called before the first frame update
+    public GameObject fadeOut;
     void Start()
     {
         StartCoroutine(EndSequence());   
@@ -15,10 +15,11 @@ public class EndRunSequence : MonoBehaviour
 
     IEnumerator EndSequence()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         liveCoins.SetActive(false);
         liveDist.SetActive(false);
         endScreen.SetActive(true);
-
+        yield return new WaitForSeconds(3);
+        fadeOut.SetActive(true);
     }
 }
