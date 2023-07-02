@@ -12794,6 +12794,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2548710611931145762, guid: 176b585036f8c30439018705ea96f955, type: 3}
   m_PrefabInstance: {fileID: 2548710610982147441}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1236317013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236317011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5cd555e0c817f4e9d3c60577a623c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1237416430
 GameObject:
   m_ObjectHideFlags: 0
@@ -13728,6 +13740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1284951342}
+  - component: {fileID: 1284951343}
   m_Layer: 0
   m_Name: Section
   m_TagString: Untagged
@@ -13823,6 +13836,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1284951343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284951341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5cd555e0c817f4e9d3c60577a623c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1301643059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15206,6 +15231,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2ebd30bde07e15b4da35f33acc22a9f2, type: 3}
       propertyPath: m_Name
       value: Ch32_nonPBR@Breathing Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2ebd30bde07e15b4da35f33acc22a9f2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 2ebd30bde07e15b4da35f33acc22a9f2, type: 3}
       propertyPath: m_Controller
@@ -22059,6 +22088,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2123511693}
+  - component: {fileID: 2123511694}
   m_Layer: 0
   m_Name: 'Section '
   m_TagString: Untagged
@@ -22153,6 +22183,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2123511694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123511692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5cd555e0c817f4e9d3c60577a623c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2126806838
 PrefabInstance:
   m_ObjectHideFlags: 0
