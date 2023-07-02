@@ -23,6 +23,7 @@ public class EndRunSequence : MonoBehaviour
         yield return new WaitForSeconds(3);
         fadeOut.SetActive(true);
         yield return new WaitForSeconds(2);
+        CollectableControl.coinCount = 0;
         SceneManager.LoadScene(0);
     }
 }
