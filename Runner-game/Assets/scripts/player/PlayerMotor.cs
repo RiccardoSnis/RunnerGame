@@ -19,7 +19,7 @@ public class PlayerMotor : MonoBehaviour
 
     private CameraSwitcher theCameraSwitcher;
 
-    private float originalSpeed = 9.0f;
+    private float originalSpeed = 10f;
     private float speed = 9.0f;
     // Start is called before the first frame update
     void Start()
