@@ -9,8 +9,7 @@ public class EndRunSequence : MonoBehaviour
     public GameObject liveDist;
     public GameObject endScreen;
     public GameObject fadeOut;
-    void Start()
-    {
+    void Start(){
         StartCoroutine(EndSequence());   
     }
 
