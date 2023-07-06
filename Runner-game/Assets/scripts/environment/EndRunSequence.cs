@@ -24,6 +24,7 @@ public class EndRunSequence : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         playFab.SendLeaderboard(LevelDistance.disRun);
+        playFab.SendLeaderboard2(CollectableControl.coinCount);
         liveCoins.SetActive(false);
         liveDist.SetActive(false);
         endScreen.SetActive(true);

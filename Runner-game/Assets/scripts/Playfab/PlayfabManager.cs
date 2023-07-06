@@ -9,6 +9,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayfabManager : MonoBehaviour
 {
+    public GameObject rowPrefab;
+    public Transform rowsParent;
+    public GameObject ranking;
+
     [Header("UI")]
     public TMP_Text messageText;
     public TMP_InputField emailInput;
@@ -79,7 +83,7 @@ public class PlayfabManager : MonoBehaviour
     }
 
     void OnError(PlayFabError error){
-       // messageText.text = error.ErrorMessage;
+        //messageText.text = error.ErrorMessage;
         Debug.Log(error.GenerateErrorReport());
     }
 
@@ -89,6 +93,18 @@ public class PlayfabManager : MonoBehaviour
                 new StatisticUpdate {
                     StatisticName = "RunnerScore",
                     Value = distance
+                } 
+            }
+        };
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
+    }
+
+    public void SendLeaderboard2(int coins){
+        var request = new UpdatePlayerStatisticsRequest {
+            Statistics = new List<StatisticUpdate> {
+                new StatisticUpdate {
+                    StatisticName = "CoinScore",
+                    Value = coins
                 } 
             }
         };
@@ -110,7 +126,29 @@ public class PlayfabManager : MonoBehaviour
 
     void OnLeaderboardGet(GetLeaderboardResult result){
         foreach ( var item in result.Leaderboard) {
+            GameObject newGo = Instantiate(rowPrefab, rowsParent);
+            Text[] texts = newGo.GetComponentsInChildren<Text>();
+            texts[0].text = item.Position.ToString();
+            texts[1].text = item.PlayFabId;
+            texts[2].text = item.StatValue.ToString();
             Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
+            
+            SceneManager.LoadScene("SampleScene");
+            // Cerca l'oggetto di tipo MyScript nella nuova scena
+            GameObject[] myObjects = FindObjectsOfType<GameObject>();
+
+            // Cerca l'oggetto desiderato nell'array
+            foreach (GameObject obj in myObjects)
+            {
+            // Utilizza una condizione per selezionare l'oggetto desiderato
+                if (obj.name == "Scoreboard_UI")
+                {
+                    ranking = obj;
+                    break;
+                }
+            }
+            ranking.SetActive(true);
+
         }
     }
 }
