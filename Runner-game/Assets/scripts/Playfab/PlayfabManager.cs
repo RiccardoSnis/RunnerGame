@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using PlayFab;
 using PlayFab.ClientModels;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayfabManager : MonoBehaviour
 {
@@ -41,6 +42,7 @@ public class PlayfabManager : MonoBehaviour
 
     void OnLoginSuccess(LoginResult result){
         messageText.text = "Logged in!";
+        SceneManager.LoadScene(0);
         Debug.Log("Successful login/account create!");
     }
 
