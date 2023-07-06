@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using PlayFab;
+using PlayFab.ClientModels;
 
 public class EndRunSequence : MonoBehaviour
 {
@@ -9,13 +11,19 @@ public class EndRunSequence : MonoBehaviour
     public GameObject liveDist;
     public GameObject endScreen;
     public GameObject fadeOut;
+    public PlayfabManager playFab;
+    public GameObject levelControl;
+
+
     void Start(){
+        //playFab = levelControl.GetComponent<PlayfabManager>();
         StartCoroutine(EndSequence());   
     }
 
     IEnumerator EndSequence()
     {
         yield return new WaitForSeconds(2);
+        playFab.SendLeaderboard(LevelDistance.disRun);
         liveCoins.SetActive(false);
         liveDist.SetActive(false);
         endScreen.SetActive(true);

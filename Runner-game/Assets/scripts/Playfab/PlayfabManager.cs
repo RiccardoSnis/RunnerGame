@@ -79,7 +79,38 @@ public class PlayfabManager : MonoBehaviour
     }
 
     void OnError(PlayFabError error){
-        messageText.text = error.ErrorMessage;
+       // messageText.text = error.ErrorMessage;
         Debug.Log(error.GenerateErrorReport());
+    }
+
+    public void SendLeaderboard(int distance){
+        var request = new UpdatePlayerStatisticsRequest {
+            Statistics = new List<StatisticUpdate> {
+                new StatisticUpdate {
+                    StatisticName = "RunnerScore",
+                    Value = distance
+                } 
+            }
+        };
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
+    }
+
+    void OnLeaderboardUpdate(UpdatePlayerStatisticsResult result){
+        Debug.Log("Successful leaderboard sent!");
+    }
+
+    public void GetLeaderboard() {
+        var request = new GetLeaderboardRequest {
+            StatisticName = "RunnerScore",
+            StartPosition = 0,
+            MaxResultsCount = 10
+        };
+        PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnError);
+    }
+
+    void OnLeaderboardGet(GetLeaderboardResult result){
+        foreach ( var item in result.Leaderboard) {
+            Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
+        }
     }
 }
