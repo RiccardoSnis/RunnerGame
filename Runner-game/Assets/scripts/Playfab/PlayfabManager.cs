@@ -9,10 +9,20 @@ using UnityEngine.SceneManagement;
 
 public class PlayfabManager : MonoBehaviour
 {
+    public GameObject rowPrefab;
+    public Transform rowsParent;
+    public GameObject ranking;
+    public GameObject leaderboard;
+    public GameObject login;
+    public GameObject menu;
+    public static bool isFirstLoad = true;
+
+
     [Header("UI")]
     public TMP_Text messageText;
     public TMP_InputField emailInput;
     public TMP_InputField passwordInput;
+
 
     public void RegisterButton(){
         if(passwordInput.text.Length < 6){
@@ -32,6 +42,11 @@ public class PlayfabManager : MonoBehaviour
         messageText.text = "registered and logged in!";
     }
 
+    public void loadMenu(){
+        login.SetActive(false);
+        menu.SetActive(true);
+    }
+
     public void LoginButton(){
         var request = new LoginWithEmailAddressRequest {
             Email = emailInput.text,
@@ -42,7 +57,9 @@ public class PlayfabManager : MonoBehaviour
 
     void OnLoginSuccess(LoginResult result){
         messageText.text = "Logged in!";
-        SceneManager.LoadScene(0);
+        isFirstLoad=false;
+        login.SetActive(false);
+        menu.SetActive(true);
         Debug.Log("Successful login/account create!");
     }
 
@@ -62,7 +79,13 @@ public class PlayfabManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Login();
+        if(isFirstLoad)
+        {  
+            Login();
+        }
+        else {
+            loadMenu();
+        }
     }
 
     // Update is called once per frame
@@ -79,7 +102,7 @@ public class PlayfabManager : MonoBehaviour
     }
 
     void OnError(PlayFabError error){
-       // messageText.text = error.ErrorMessage;
+        messageText.text = error.ErrorMessage;
         Debug.Log(error.GenerateErrorReport());
     }
 
@@ -89,6 +112,18 @@ public class PlayfabManager : MonoBehaviour
                 new StatisticUpdate {
                     StatisticName = "RunnerScore",
                     Value = distance
+                } 
+            }
+        };
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
+    }
+
+    public void SendLeaderboard2(int coins){
+        var request = new UpdatePlayerStatisticsRequest {
+            Statistics = new List<StatisticUpdate> {
+                new StatisticUpdate {
+                    StatisticName = "CoinScore",
+                    Value = coins
                 } 
             }
         };
@@ -110,7 +145,18 @@ public class PlayfabManager : MonoBehaviour
 
     void OnLeaderboardGet(GetLeaderboardResult result){
         foreach ( var item in result.Leaderboard) {
+            GameObject newGo = Instantiate(rowPrefab, rowsParent);
+            Text[] texts = newGo.GetComponentsInChildren<Text>();
+            texts[0].text = item.Position.ToString();
+            texts[1].text = item.PlayFabId;
+            texts[2].text = item.StatValue.ToString();
             Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
+            
+        
+            
+            menu.SetActive(false);
+            ranking.SetActive(true);
+
         }
     }
 }
