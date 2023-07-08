@@ -21,9 +21,21 @@ public class PlayerMotor : MonoBehaviour
 
     private float originalSpeed = 10f;
     private float speed = 9.0f;
+
+    //audio
+    [SerializeField] public AudioSource coinSource = null;
+    
+    [SerializeField] public AudioSource effectSource = null;
+
+    [SerializeField] public AudioSource runSource = null;
     // Start is called before the first frame update
     void Start()
     {
+        float volumeValue = PlayerPrefs.GetFloat("VolumeValue");
+        float effectValue = PlayerPrefs.GetFloat("EffectValue");
+        runSource.volume = volumeValue;
+        effectSource.volume = effectValue;
+        coinSource.volume = effectValue;
         speed = originalSpeed;
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
