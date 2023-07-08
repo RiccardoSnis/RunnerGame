@@ -1734,6 +1734,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &173327280
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3176,10 +3177,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rowPrefab: {fileID: 0}
   rowsParent: {fileID: 0}
+  rowCoinPrefab: {fileID: 0}
+  rowsCoinParent: {fileID: 0}
   ranking: {fileID: 0}
   leaderboard: {fileID: 0}
   login: {fileID: 0}
   menu: {fileID: 0}
+  nameWindow: {fileID: 0}
+  nameInput: {fileID: 0}
   messageText: {fileID: 0}
   emailInput: {fileID: 0}
   passwordInput: {fileID: 0}
@@ -3196,7 +3201,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &321863266
 PrefabInstance:
@@ -5041,9 +5046,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d0a7d28b7b1f01a49b789cef602115fb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7152bb8526403704bb562c34984a4fb6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 0.515
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5134,13 +5139,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516088791}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2467422, y: 4.2179966, z: 22.821424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.87979794, y: 3.0438495, z: 29.02451}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1345260818}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &516136559
 PrefabInstance:
@@ -5602,6 +5607,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &561212366
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9996,6 +10002,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &955355099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10293,6 +10300,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &989658118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10725,6 +10733,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1021561469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10759,6 +10768,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1022999981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11391,6 +11401,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1098207472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13207,6 +13218,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1248337816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14085,6 +14097,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1637503520}
+  - {fileID: 516088793}
+  - {fileID: 1620214358}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14770,6 +14784,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1372894442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14871,6 +14886,7 @@ MonoBehaviour:
   charModel: {fileID: 0}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 0}
 --- !u!1001 &1386732860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15092,6 +15108,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1393660915
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15671,6 +15688,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1480426499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15905,6 +15923,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1519873829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16564,6 +16583,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1598928257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16781,6 +16801,134 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5522283567862258127, guid: c9eecf76269530440a0d1c4ade2aeeb9, type: 3}
   m_PrefabInstance: {fileID: 1617795591}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1620214357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1620214358}
+  - component: {fileID: 1620214359}
+  m_Layer: 0
+  m_Name: Collision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620214358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620214357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1345260818}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1620214359
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620214357}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 005c6f57c3973a34080bd6526926981e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.535
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1620528673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5562685595893329586, guid: 46911e417871eda40be73f7195b66079, type: 3}
@@ -16802,6 +16950,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1620528677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17493,6 +17642,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1653740040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18246,6 +18396,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1699475528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18275,6 +18426,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 0}
 --- !u!65 &1699475530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18878,6 +19030,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1762367183
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19071,6 +19224,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1769240132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19495,6 +19649,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1818445523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19776,6 +19931,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!1001 &1858868474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19866,6 +20022,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1858868479
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20549,6 +20706,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &1950083863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21816,6 +21974,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &2047207212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21919,6 +22078,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 0}
 --- !u!65 &2049550413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22344,6 +22504,7 @@ MonoBehaviour:
   charModel: {fileID: 1749612037}
   levelControl: {fileID: 0}
   generateLevel: {fileID: 0}
+  obstacleCollision: {fileID: 1620214359}
 --- !u!65 &2133001865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22498,6 +22659,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710610956850046, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     - target: {fileID: 2548710611034168747, guid: 176b585036f8c30439018705ea96f955, type: 3}
       propertyPath: coinFX
       value: 
@@ -22614,6 +22779,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710611991836777, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     - target: {fileID: 2548710612008672140, guid: 176b585036f8c30439018705ea96f955, type: 3}
       propertyPath: charModel
       value: 
@@ -22630,6 +22799,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710612210273810, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     - target: {fileID: 2548710612324449317, guid: 176b585036f8c30439018705ea96f955, type: 3}
       propertyPath: coinFX
       value: 
@@ -22642,6 +22815,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710612752678518, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     - target: {fileID: 2548710612806981381, guid: 176b585036f8c30439018705ea96f955, type: 3}
       propertyPath: charModel
       value: 
@@ -22650,6 +22827,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710612806981381, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     - target: {fileID: 2548710612824290200, guid: 176b585036f8c30439018705ea96f955, type: 3}
       propertyPath: coinFX
       value: 
@@ -22662,6 +22843,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710612867134142, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     - target: {fileID: 2548710612923273699, guid: 176b585036f8c30439018705ea96f955, type: 3}
       propertyPath: charModel
       value: 
@@ -22670,5 +22855,9 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710612923273699, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 176b585036f8c30439018705ea96f955, type: 3}

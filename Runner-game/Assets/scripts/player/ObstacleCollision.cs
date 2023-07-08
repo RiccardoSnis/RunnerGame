@@ -9,6 +9,7 @@ public class ObstacleCollision : MonoBehaviour
     private bool isStumbling = false;
     public GameObject levelControl;
     public GameObject generateLevel;
+    public AudioSource obstacleCollision;
 
 
     private void Start()
@@ -38,6 +39,7 @@ public class ObstacleCollision : MonoBehaviour
 {
     Animator animator = charModel.GetComponent<Animator>();
     animator.Play("Stumble Backwards");
+    obstacleCollision.Play();
 
     float cutoffTime = 0.18f;
 
