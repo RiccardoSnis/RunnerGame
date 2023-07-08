@@ -44,10 +44,17 @@ public class PlayfabManager : MonoBehaviour
 
     void OnRegisterSuccess(RegisterPlayFabUserResult result){
         messageText.text = "registered and logged in!";
+        login.SetActive(false);
+        nameWindow.SetActive(true);
     }
 
     public void loadMenu(){
         login.SetActive(false);
+        menu.SetActive(true);
+    }
+
+    public void backToMenu(){
+        ranking.SetActive(false);
         menu.SetActive(true);
     }
 
