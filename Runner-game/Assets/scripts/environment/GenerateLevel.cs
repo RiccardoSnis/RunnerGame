@@ -44,7 +44,7 @@ public class GenerateLevel : MonoBehaviour
                 zPos += 93;
             }
 
-            yield return new WaitForSeconds(6);
+            yield return new WaitForSeconds(4);
         }
     }
 }
