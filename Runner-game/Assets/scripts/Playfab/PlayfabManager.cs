@@ -18,7 +18,7 @@ public class PlayfabManager : MonoBehaviour
     public GameObject login;
     public GameObject menu;
     public GameObject nameWindow;
-     public TMP_InputField nameInput;
+    public TMP_InputField nameInput;
     public static bool isFirstLoad = true;
 
 
@@ -211,7 +211,7 @@ public class PlayfabManager : MonoBehaviour
         }
     }
 
-        void OnLeaderboardGet2(GetLeaderboardResult result2){
+    void OnLeaderboardGet2(GetLeaderboardResult result2){
         foreach ( var item in result2.Leaderboard) {
             GameObject newGo2 = Instantiate(rowCoinPrefab, rowsCoinParent);
             TMP_Text[] texts2 = newGo2.GetComponentsInChildren<TMP_Text>();
@@ -222,5 +222,14 @@ public class PlayfabManager : MonoBehaviour
             
 
         }
+    }
+
+    public void Logout() {
+        PlayFabClientAPI.ForgetAllCredentials();
+        menu.SetActive(false);
+        login.SetActive(true);
+        emailInput.text = "";
+        passwordInput.text = "";
+        messageText.text = "";
     }
 }

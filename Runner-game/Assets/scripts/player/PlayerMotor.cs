@@ -20,7 +20,8 @@ public class PlayerMotor : MonoBehaviour
     private CameraSwitcher theCameraSwitcher;
 
     private float originalSpeed = 10f;
-    private float speed = 9.0f;
+    public float speed = 9.0f;
+    public float maxSpeed = 25f;
 
     //audio
     [SerializeField] public AudioSource coinSource = null;
@@ -55,6 +56,10 @@ public class PlayerMotor : MonoBehaviour
         if (!isRunning)
         {
             return;
+        }
+
+        if(speed <= maxSpeed){
+            speed += 0.1f * Time.deltaTime;
         }
 
         if((MobileInput.Instance.SwipeLeft) || (Input.GetKeyDown(KeyCode.LeftArrow)))

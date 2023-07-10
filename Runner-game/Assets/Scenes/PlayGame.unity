@@ -14152,6 +14152,12 @@ MonoBehaviour:
   addingDis: 0
   startCount: 0
   disDelay: 0.4
+  elapsedTime: 0
+  initialInterval: 0.5
+  intervalDecreaseRate: 0.1
+  minInterval: 0.2
+  maxSpeed: 25
+  timeToMaxSpeed: 500
   thePlayer: {fileID: 1749612037}
 --- !u!114 &1345260822
 MonoBehaviour:
@@ -18851,6 +18857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1749612037}
+  speed: 9
+  maxSpeed: 25
   coinSource: {fileID: 1637503521}
   effectSource: {fileID: 1620214359}
   runSource: {fileID: 516088792}
@@ -22794,6 +22802,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1749612037}
+    - target: {fileID: 2548710612008672140, guid: 176b585036f8c30439018705ea96f955, type: 3}
+      propertyPath: obstacleCollision
+      value: 
+      objectReference: {fileID: 1620214359}
     - target: {fileID: 2548710612210273810, guid: 176b585036f8c30439018705ea96f955, type: 3}
       propertyPath: charModel
       value: 
