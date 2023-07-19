@@ -1,1 +1,2 @@
-# RunnerGame ihih
+"Run, Dummy, Run!" è un runner game sviluppato tramite la piattaforma Unity. È un gioco 3d che prevede la corsa di un personaggio lungo una percorso potenzialmente infinito. Il suo obiettivo è schivare ostacoli e raccogliere monete. Sulla base di questi due parametri vengono aggiornate le relative classifiche.
+Queste ultime e l'aspetto dell'autenticazione sono state gestite tramite l'API messa a disposizione da PlayFab.
